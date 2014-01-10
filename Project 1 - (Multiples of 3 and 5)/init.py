@@ -8,7 +8,7 @@ def findMultiples(M, N):
 		M: the multiplier used for find the number(s).
 		N: The upper bound for searching the number(s).
 	Returns:
-		Numbers of are a multiple of M, under N.
+		Numbers that are a multiple of M, under N.
 
 	Examples:
 		>>> findMultiples(3, 10)
@@ -27,7 +27,7 @@ def findMultiples(M, N):
 
 	return numbers
 
-#Upper limit is 100
+#Upper limit is 1000
 #Multipliers are 3 and 5
 N = 1000
 M = [3, 5]
